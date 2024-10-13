@@ -84,10 +84,10 @@ public class AWTComponentAppState extends AbstractAppState {
     super.update(tpf);
   }
   
-  @Override
-  public void cleanup() {
-    super.cleanup();
-  }
+//  @Override
+//  public void cleanup() {
+//    super.cleanup();
+//  }
   
   /**
    * Create a new app state dedicated to the rendering of a JMonkey application within the given AWT <code>component</code>.

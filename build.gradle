@@ -16,6 +16,24 @@ buildscript {
     }
 }
 
+<<<<<<< Updated upstream
+=======
+
+plugins {
+    id "org.sonarqube" version "5.0.0.4638"
+}
+
+sonarqube {
+    properties {
+        property "sonar.projectKey", "Amal-Gupta-scm-soen-6431-case-study-1-project"
+        property "sonar.projectName", "Amal Gupta scm (soen 6431) case study 1 project"
+        property "sonar.host.url", "http://localhost:9000"
+        property "sonar.token", "sqp_3c355c7c452e1d58a9d48f15651e692c432851e3"
+        property "sonar.projectBaseDir", "jmonkeyengineFall2024/jme3-desktop"
+    }
+}
+
+>>>>>>> Stashed changes
 allprojects {
     repositories {
         mavenCentral()
